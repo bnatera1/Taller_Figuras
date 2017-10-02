@@ -72,4 +72,7 @@ public class Triangulo extends AppCompatActivity {
         Base.requestFocus();
         Altura.requestFocus();
     }
+    public void Regresar (View v){
+        this.finish();
+    }
 }

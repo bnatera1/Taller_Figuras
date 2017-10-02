@@ -71,4 +71,7 @@ public class Rectangulo extends AppCompatActivity {
         Altura.setText("");
         Base.requestFocus();
     }
+    public void Regresar (View v){
+        this.finish();
+    }
 }

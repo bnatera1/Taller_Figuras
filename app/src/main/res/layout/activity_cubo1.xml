@@ -35,13 +35,19 @@
         android:textSize="24sp"
         android:textStyle="bold" />
 
+
     <TextView
         android:id="@+id/txtRes_Cubo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.04"
+        android:layout_width="366dp"
+        android:layout_height="106dp"
         android:textAlignment="center"
         android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:onClick="Regresar"
+        android:text="Regresar" />
 
     </LinearLayout>
 

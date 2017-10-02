@@ -66,5 +66,8 @@ public class Cuadrado extends AppCompatActivity {
         Lado.setText("");
         Lado.requestFocus();
     }
+    public void Regresar (View v){
+        this.finish();
+    }
 
 }

@@ -72,4 +72,7 @@ public class Cono extends AppCompatActivity {
         Radio.requestFocus();
         Altura.requestFocus();
     }
+    public void Regresar (View v){
+        this.finish();
+    }
 }

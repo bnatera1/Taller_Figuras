@@ -59,4 +59,7 @@ public class Cubo extends AppCompatActivity {
         Arista.setText("");
         Arista.requestFocus();
     }
+    public void Regresar (View v){
+        this.finish();
+    }
 }

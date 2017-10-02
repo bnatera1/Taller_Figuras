@@ -48,30 +48,38 @@
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="70dp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCalcularCir"
+            android:layout_width="129dp"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_weight="1"
+            android:onClick="CalcularCir"
+            android:text="@string/calcular"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="126dp" />
 
-            <Button
-                android:id="@+id/btnCalcularCir"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:onClick="CalcularCir"
-                android:text="@string/calcular"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="126dp" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="Limpiar"
+            android:text="@string/limpiar" />
 
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:onClick="Limpiar"
-                android:text="@string/limpiar" />
-
-        </LinearLayout>
+        <Button
+            android:id="@+id/btnRegresar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="Regresar"
+            android:text="@string/regresar" />
 
     </LinearLayout>
+
+</LinearLayout>
 

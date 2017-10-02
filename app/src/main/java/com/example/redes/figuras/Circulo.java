@@ -60,4 +60,7 @@ public class Circulo extends AppCompatActivity {
         Radio.setText("");
         Radio.requestFocus();
     }
+    public void Regresar (View v){
+        this.finish();
+    }
 }

@@ -48,15 +48,14 @@
         tools:layout_editor_absoluteY="70dp" />
 
     <LinearLayout
-    android:layout_width="match_parent"
+    android:layout_width="372dp"
     android:layout_height="wrap_content"
     android:orientation="horizontal">
 
         <Button
             android:id="@+id/btnCalcular"
-            android:layout_width="match_parent"
+            android:layout_width="138dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:onClick="Calcular"
             android:text="@string/calcular"
             tools:layout_editor_absoluteX="16dp"
@@ -64,11 +63,18 @@
 
         <Button
             android:id="@+id/button2"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:onClick="LimpiarCua"
+            android:text="@string/limpiar" />
+
+        <Button
+            android:id="@+id/btnRegresar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:onClick="LimpiarCua"
-            android:text="@string/limpiar" />
+            android:onClick="Regresar"
+            android:text="@string/regresar" />
 
     </LinearLayout>
 
