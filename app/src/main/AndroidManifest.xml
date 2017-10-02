@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.redes.figuras">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Principal">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Areas" />
+        <activity android:name=".Volumenes" />
+        <activity android:name=".Cuadrado" />
+        <activity android:name=".Triangulo" />
+        <activity android:name=".Rectangulo" />
+        <activity android:name=".Circulo" />
+        <activity android:name=".Esfera" />
+        <activity android:name=".Cilindro" />
+        <activity android:name=".Cono" />
+        <activity android:name=".Cubo" />
+        <activity
+            android:name=".Realizadas"
+            android:label="@string/title_activity_realizadas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".OperacionesRealizadas" />
+        <activity android:name=".Cuadrado1" />
+        <activity android:name=".Triangulo1" />
+        <activity android:name=".Rectangulo1" />
+        <activity android:name=".Circulo1" />
+        <activity android:name=".Cono1" />
+        <activity android:name=".Cubo1" />
+        <activity android:name=".Cilindro1" />
+        <activity android:name=".Esfera1"></activity>
+    </application>
+
+</manifest>

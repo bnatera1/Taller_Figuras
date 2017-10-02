@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Figuras</string>
+    <string name="N">Number</string>
+    <string name="altura">Height</string>
+    <string name="area">Area</string>
+    <string name="areaCuadrado">Square Area</string>
+    <string name="area_cuadrado">Square Area</string>
+    <string name="arista">Edge</string>
+    <string name="base">Base</string>
+    <string name="calcular">Calculate</string>
+    <string name="cilindro">Cylinder</string>
+    <string name="circulo">Circle</string>
+    <string name="cono">Cone</string>
+    <string name="cuadrado">Square</string>
+    <string name="cubo">Cube</string>
+    <string name="datos">Date</string>
+    <string name="error1">Error! I did not enter a number</string>
+    <string name="esfera">Sphere</string>
+    <string name="error2">Error! can not enter a zero</string>
+    <string name="lado">Side</string>
+    <string name="lado2">Side</string>
+    <string name="limpiar">Clean</string>
+    <string name="lista">List</string>
+    <string name="opera">Operation</string>
+    <string name="radio">Radio</string>
+    <string name="rectangulo">Rectangle</string>
+    <string name="res">Beef</string>
+    <string name="resultado">Result</string>
+    <string name="title_activity_realizadas">Performed</string>
+    <string name="triangulo">Triangle</string>
+    <string name="volumen">Volume</string>
+</resources>

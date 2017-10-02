@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Figuras</string>
+    <string-array name="Opciones">
+        <item>@string/area</item>
+        <item>@string/volumen</item>
+        <item>@string/lista</item>
+    </string-array>
+    <string-array name="areas">
+        <item>@string/cuadrado</item>
+        <item>@string/rectangulo</item>
+        <item>@string/triangulo</item>
+        <item>@string/circulo</item>
+    </string-array>
+    <string-array name="volumen">
+        <item>@string/esfera</item>
+        <item>@string/cilindro</item>
+        <item>@string/cono</item>
+        <item>@string/cubo</item>
+    </string-array>
+    <string name="area">Area</string>
+    <string name="volumen">Volumen</string>
+    <string name="title_activity_realizadas">Realizadas</string>
+    <string name="cuadrado">Cuadrado</string>
+    <string name="circulo">Circulo</string>
+    <string name="triangulo">Triangulo</string>
+    <string name="rectangulo">Rectangulo</string>
+    <string name="esfera">Esfera</string>
+    <string name="cilindro">Cilindro</string>
+    <string name="cono">Cono</string>
+    <string name="cubo">Cubo</string>
+    <string name="N">Numero</string>
+    <string name="opera">Operacion</string>
+    <string name="datos">Datos</string>
+    <string name="resultado">Resultado</string>
+    <string name="lista">Lista</string>
+    <string name="lado">Lado</string>
+    <string name="calcular">Calcular</string>
+    <string name="res">Res</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="area_cuadrado">Area del Cuadrado</string>
+    <string name="lado2">Lado:</string>
+    <string name="areaCuadrado">Area Cuadrado</string>
+    <string name="base">Base</string>
+    <string name="altura">Altura</string>
+    <string name="radio">Radio</string>
+    <string name="arista">Arista</string>
+    <string name="error1">Error! no a ingresado un numero</string>
+    <string name="error2">Error! no puene ingresar un cero</string>
+    <string name="regresar">Regresar</string>
+</resources>
