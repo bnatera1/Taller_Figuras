@@ -45,7 +45,7 @@
         android:id="@+id/btnRegresar"
         android:layout_width="154dp"
         android:layout_height="wrap_content"
-        android:onClick="Regresar"
+        android:onClick="RegresarEs"
         android:text="Regresar" />
 
     </LinearLayout>

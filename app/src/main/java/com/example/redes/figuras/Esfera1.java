@@ -3,6 +3,7 @@ package com.example.redes.figuras;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class Esfera1 extends AppCompatActivity {
@@ -22,5 +23,8 @@ public class Esfera1 extends AppCompatActivity {
         resultado = b.getDouble("Volumen");
         aux = " "+ resultado;
         mostar.setText(aux);
+    }
+    public void RegresarEs (View v){
+        this.finish();
     }
 }

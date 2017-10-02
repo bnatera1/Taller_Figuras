@@ -3,6 +3,7 @@ package com.example.redes.figuras;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class Circulo1 extends AppCompatActivity {
@@ -24,5 +25,8 @@ public class Circulo1 extends AppCompatActivity {
         resultado = b.getDouble("Area");
         aux = " "+ resultado;
         mostar.setText(aux);
+    }
+    public void RegresarCir (View v){
+        this.finish();
     }
 }
